@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BallBot Remote</string>
+    <string name="action_settings">Wifi Settings</string>
+</resources>

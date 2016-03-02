@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="ch.ydt.ballbotremote.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="#ffffff"
+            android:id="@+id/buttonConnStat"
+            android:layout_marginBottom="16dp"
+            />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="3">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonFlip"
+            android:drawableTop="@android:drawable/ic_menu_rotate"
+            android:paddingTop="55dp"
+            android:background="#FAFAFA"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Forwards"
+            android:id="@+id/buttonForwards"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonFlip2"
+            android:drawableTop="@android:drawable/ic_media_play"
+            android:paddingTop="55dp"
+            android:background="#ffffff"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="3">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Left"
+            android:id="@+id/buttonTurnLeft"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:id="@+id/button7"
+            android:drawableTop="@android:drawable/ic_popup_reminder"
+            android:paddingTop="55dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Right"
+            android:id="@+id/buttonTurnRight"
+            android:layout_weight="1"/>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="3">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/background_material_light"
+            android:id="@+id/textView"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Backwards"
+            android:id="@+id/buttonBackwards"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/x"
+            android:background="#ffffff"
+            android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
